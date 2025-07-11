@@ -242,8 +242,56 @@ padding: 30px;
 }
 /* -------------------------- */
 
+/* input section */
+.input-section{
+    max-width: 1140px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+}
+.input-title{
+    font-weight: bold;
+    font-size: 4em;
 
+}
+.input-form{
+display: flex;
+flex-direction: column;
+width: 500px;
+height: 500px;
 
+}
+.input-form input{
+    padding: 30px;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+.input-form textarea{
+outline: none;
+border: none;
+border-radius: 10px;
+resize: none;
+}
+.input-form label{
+    font-size: 1.5em;
+    padding: 10px 0px;
+    font-weight: 700;
+    text-align: start;
+}
+.get-touch{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 20px 0px;
+    margin-top: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+}
 
 
 
