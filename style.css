@@ -10,6 +10,8 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: #f5f8ff;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* --------- header--------- */
@@ -242,6 +244,7 @@ padding: 30px;
 }
 /* -------------------------- */
 
+
 /* input section */
 .input-section{
     max-width: 1140px;
@@ -292,9 +295,38 @@ resize: none;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
 }
+/* -------------------------------- */
 
 
 
-footer{
-    height: 1000px;
+
+.footer-section{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    gap: 30px;
+
+}
+.footer-section ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 25px;
+
+}
+.logo-2{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 6em;
+
+}
+.footer-section p {
+    font-size: 24px;
+    font-weight: 300;
+
 }
