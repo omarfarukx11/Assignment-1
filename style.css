@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -8,8 +8,8 @@
     padding: 0;
 }
 body{
-    font-family: sans-serif;
-    background-color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    background-color: #f5f8ff;
 }
 
 /* --------- header--------- */
@@ -53,7 +53,7 @@ body{
     border:none;
     border-radius: 10px;
     outline: none;
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 1.1em;
 
@@ -83,6 +83,7 @@ body{
     border-radius: 8px;
     border: none;
     background-color: #4E47FF;
+    font-family: "Inter", sans-serif;
 }
 /* --------------------- */
 
@@ -130,6 +131,7 @@ gap: 20px;
     font-weight: bold;
     border: none;
     border-radius: 10px;
+    font-family: "Inter", sans-serif;
 }
 
 .action-img img{
@@ -138,3 +140,113 @@ gap: 20px;
     border-radius: 40px;
 }
 /* ------------------ */
+
+
+/* section user-details */
+.user-container{
+    background-color:#e5e7ff ;
+    max-width: 1140px;
+    height: 310px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius:20px ;
+}
+
+.user-details{
+    width: 856px;
+    height: 200px;
+    gap: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.user-status{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-details-title{
+text-align: center;
+font-size: 1.4em;
+font-weight: bold;
+}
+
+.first-status{
+    font-size: 60px;
+    font-weight: bold;
+    color: #4E47FF;
+
+}
+.second-status{
+    font-weight: 100;
+    color:black;
+    font-family: sans-serif;
+}
+
+/* section feedback */
+.feedback-section{
+    max-width: 1140px;
+    height: 400px;
+    margin: auto;
+    background-color:#f5f8ff ;
+}
+.feedback-title{
+    text-align: center;
+    font-size:3.5em ;
+    padding-bottom: 20px;
+
+}
+.feedback-container{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback-card{
+background-color:#e5e7ff ;
+border-radius: 15px;
+width: 300px;
+height:200px ;
+padding: 30px;
+}
+.rating-feedback img{
+    padding: 10px 5px;
+
+}
+.reviewer h2{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.feedback-text p{
+    font-size: 20px;
+    width: fit-content;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+.reviewer-details{
+    display: flex;
+    gap: 15px;
+    padding-top:10px ;
+
+}
+
+.reviewer-details img{
+    height: 40px ;
+    width: 40px;
+    border-radius:40px ;
+}
+.reviewer-name{
+    font-weight: 700;
+}
+/* -------------------------- */
+
+
+
+
+
+
+footer{
+    height: 1000px;
+}
